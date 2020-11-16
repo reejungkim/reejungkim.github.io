@@ -34,7 +34,7 @@ os.getcwd()
 # In[12]:
 
 
-@app.route("https://reejungkim.github.io/About")
+@app.route("/About")
 def home():
     return "Hello, World!"
     #return render_template('home.html')
