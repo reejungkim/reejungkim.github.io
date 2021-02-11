@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #4c5940;
+  color: #1820b8;
   text-decoration: none;
   background-color: transparent;
 }
@@ -4577,7 +4577,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #4c5940;
+  color: ##2C7F84;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4606,7 +4606,7 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #4c5940;
+  background-color: #2C7F84;
   border-color: #4c5940;
 }
 .page-item.disabled .page-link {
