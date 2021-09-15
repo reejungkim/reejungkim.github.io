@@ -62,8 +62,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">EDA Projects</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests_ml">ML/DL Projects</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">EDA Projects</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skill set</a></li>
@@ -96,6 +96,79 @@
     <hr class="m-0" />
     <hr class="m-0" />
     <!-- Interests-->
+    <section class="resume-section" id="interests_ml">
+      <div class="resume-section-content">
+      <h2 class="mb-5">Machine Learning / Deep Learning Application</h2>
+    <h3 class="mb-0">Housing price prediction</h3>
+    <a href="https://nbviewer.jupyter.org/github/reejungkim/HousingPrice/blob/master/Kaggle%20-%20House%20Prices%20ML.ipynb">View repository</a>
+        <ul>
+          <li>Objective: Forecast housing price based on given features</li>
+          <li>Data collection: <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">Kaggle data set</a></li>
+          <li>Data Preprocessing: label encoder, scaler</li>
+          <li>Model/Algorithm used: random forest regression, support vector regression, gradient boosting regression</li>
+          <li>Challenge: dimensionality reduction</li>
+          <li>Reference(s): <a href="https://thenewstack.io/3-new-techniques-for-data-dimensionality-reduction-in-machine-learning/">dimentionality reduction techniques</a></li>
+        </ul>
+    <h3 class="mb-0">Spam email detection</h3>
+    <a href="https://nbviewer.jupyter.org/github/reejungkim/Natural-Language-Processing/blob/master/Spam%20detection.ipynb">View repository</a>
+      <ul>
+        <p><img src="/assets/img/img_WordCloud.png" width="200" height="150"/></p>
+      <li>Objective: Spam classification based on NLP</li>
+      <li>Data collection: <a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">Kaggle data set</a></li>
+      <li>Data Preprocessing: tokenizer, padding</li>
+      <li>Model/Algorithm used: Tensorflow - Sequential, Embedding, Simple RNN</li>
+      </ul>
+
+    <h3 class="mb-0">Fraud detection</h3>
+    <a href="https://nbviewer.jupyter.org/github/reejungkim/Anomalies/blob/master/credit%20card%20fraud%20detection%20v2.ipynb">View repository</a>
+      <ul>
+        <li>Objective: Identify fraudulent credit card transactions based on credit card transaction data</li>
+        <li>Data collection: <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">Kaggle data set</a></li>
+        <li>Model/Algorithm used: random forest classifier, logistics regression classifier</li>
+      </ul>
+    <h3 class="mb-0">Outlier detection</h3>
+    <a href="https://nbviewer.jupyter.org/github/reejungkim/Anomalies/blob/master/Boston%20housing%20outliers.ipynb">View repository</a>
+      <ul>
+        <li>Objective: detect/remove outliers</li>
+        <li>Model/Algorithm used: Cook's distance</li>
+      </ul>
+    <h3 class="mb-0">Time series</h3>
+    <a href="https://github.com/reejungkim/Time-Series-stock">View repository</a>
+      <ul>
+        <li>Model/Algorithm used: LSTM Keras <a href="https://nbviewer.jupyter.org/github/reejungkim/Time-Series-stock/blob/master/AAPL.ipynb">View repository</a></li>
+        <li>Model/Algorithm used: Prophet <a href="https://nbviewer.jupyter.org/github/reejungkim/Time-Series-stock/blob/master/forecasting%20stock%20price%20using%20fbprophet.ipynb">View repository</a></li>
+        <li>Model/Algorithm used: Seasonal decomposition <a href="https://nbviewer.jupyter.org/github/reejungkim/Time-Series-stock/blob/master/seasonal%20decomposition.ipynb">View repository</a></li>
+
+      </ul>
+    <h3 class="mb-0">Demand forecasting</h3>
+      <a href="https://github.com/reejungkim/bike-sharing-demand-forecasting/blob/master/bike%20sharing%20demand%20forecasting.ipynb">View repository</a>
+        <ul>
+          <li>Objective: Forecast bike sharing demand</li>
+          <li>Model/Algorithm used: random forest regression, support vector regression, gradient boosting regression</li>
+        </ul>
+   <h3 class="mb-0">Market basket analysis</h3>
+     <a href="https://nbviewer.jupyter.org/github/reejungkim/User-Analysis/blob/master/Market%20Basket%20Analysis.ipynb">View repository</a>
+    <ul>
+      <li>Objective: Recommend items based on retail purchase data</li>
+      <li>Data collection: <a href="http://archive.ics.uci.edu/ml/machine-learning-databases/00352/Online%20Retail.xlsx">UCI</a></li>
+      <li>Model/Algorithm used: apriori function</li>
+    </ul>
+    <h3 class="mb-0">Bankruptcy prediction</h3>
+      <a href="https://nbviewer.jupyter.org/github/reejungkim/Credit_model/blob/main/Predicting%20bankruptcies.ipynb">View code</a>
+     <ul>
+       <li>Objective: Predict brankruptcies</li>
+      <li>Model/Algorithm used: random forest, logitics, xgboost, lightGBM classifier</li>
+      <li>Hyperparameter optimization: RandomSearchCV, GridSearch</li>
+      <li>Evaluation metrics: confusion matrix, ROC</li>
+     </ul>
+
+
+    <p class="mb-0">
+      <!-- When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the
+      front-end web development world. -->
+    </p>
+  </div>
+</section>
     <section class="resume-section" id="interests">
       <div class="resume-section-content">
         <h2 class="mb-5">Exploratory Data Analysis / Visualization</h2>
@@ -140,79 +213,7 @@
           <li>Data collection: Kaggle</li>
           <li>Model/Algorithm used: Tensorflow - Simple RNN</li>
         </ul> -->
-        <section class="resume-section" id="interests_ml">
-          <div class="resume-section-content">
-          <h2 class="mb-5">Machine Learning / Deep Learning Application</h2>
-        <h3 class="mb-0">Housing price prediction</h3>
-        <a href="https://nbviewer.jupyter.org/github/reejungkim/HousingPrice/blob/master/Kaggle%20-%20House%20Prices%20ML.ipynb">View repository</a>
-            <ul>
-              <li>Objective: Forecast housing price based on given features</li>
-              <li>Data collection: <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">Kaggle data set</a></li>
-              <li>Data Preprocessing: label encoder, scaler</li>
-              <li>Model/Algorithm used: random forest regression, support vector regression, gradient boosting regression</li>
-              <li>Challenge: dimensionality reduction</li>
-              <li>Reference(s): <a href="https://thenewstack.io/3-new-techniques-for-data-dimensionality-reduction-in-machine-learning/">dimentionality reduction techniques</a></li>
-            </ul>
-        <h3 class="mb-0">Spam email detection</h3>
-        <a href="https://nbviewer.jupyter.org/github/reejungkim/Natural-Language-Processing/blob/master/Spam%20detection.ipynb">View repository</a>
-          <ul>
-            <p><img src="/assets/img/img_WordCloud.png" width="200" height="150"/></p>
-          <li>Objective: Spam classification based on NLP</li>
-          <li>Data collection: <a href="https://www.kaggle.com/uciml/sms-spam-collection-dataset">Kaggle data set</a></li>
-          <li>Data Preprocessing: tokenizer, padding</li>
-          <li>Model/Algorithm used: Tensorflow - Sequential, Embedding, Simple RNN</li>
-          </ul>
 
-        <h3 class="mb-0">Fraud detection</h3>
-        <a href="https://nbviewer.jupyter.org/github/reejungkim/Anomalies/blob/master/credit%20card%20fraud%20detection%20v2.ipynb">View repository</a>
-          <ul>
-            <li>Objective: Identify fraudulent credit card transactions based on credit card transaction data</li>
-            <li>Data collection: <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">Kaggle data set</a></li>
-            <li>Model/Algorithm used: random forest classifier, logistics regression classifier</li>
-          </ul>
-        <h3 class="mb-0">Outlier detection</h3>
-        <a href="https://nbviewer.jupyter.org/github/reejungkim/Anomalies/blob/master/Boston%20housing%20outliers.ipynb">View repository</a>
-          <ul>
-            <li>Objective: detect/remove outliers</li>
-            <li>Model/Algorithm used: Cook's distance</li>
-          </ul>
-        <h3 class="mb-0">Time series</h3>
-        <a href="https://github.com/reejungkim/Time-Series-stock">View repository</a>
-          <ul>
-            <li>Model/Algorithm used: LSTM Keras <a href="https://nbviewer.jupyter.org/github/reejungkim/Time-Series-stock/blob/master/AAPL.ipynb">View repository</a></li>
-            <li>Model/Algorithm used: Prophet <a href="https://nbviewer.jupyter.org/github/reejungkim/Time-Series-stock/blob/master/forecasting%20stock%20price%20using%20fbprophet.ipynb">View repository</a></li>
-            <li>Model/Algorithm used: Seasonal decomposition <a href="https://nbviewer.jupyter.org/github/reejungkim/Time-Series-stock/blob/master/seasonal%20decomposition.ipynb">View repository</a></li>
-
-          </ul>
-        <h3 class="mb-0">Demand forecasting</h3>
-          <a href="https://github.com/reejungkim/bike-sharing-demand-forecasting/blob/master/bike%20sharing%20demand%20forecasting.ipynb">View repository</a>
-            <ul>
-              <li>Objective: Forecast bike sharing demand</li>
-              <li>Model/Algorithm used: random forest regression, support vector regression, gradient boosting regression</li>
-            </ul>
-       <h3 class="mb-0">Market basket analysis</h3>
-         <a href="https://nbviewer.jupyter.org/github/reejungkim/User-Analysis/blob/master/Market%20Basket%20Analysis.ipynb">View repository</a>
-        <ul>
-          <li>Objective: Recommend items based on retail purchase data</li>
-          <li>Data collection: <a href="http://archive.ics.uci.edu/ml/machine-learning-databases/00352/Online%20Retail.xlsx">UCI</a></li>
-          <li>Model/Algorithm used: apriori function</li>
-        </ul>
-        <h3 class="mb-0">Bankruptcy prediction</h3>
-          <a href="https://nbviewer.jupyter.org/github/reejungkim/Credit_model/blob/main/Predicting%20bankruptcies.ipynb">View code</a>
-         <ul>
-           <li>Objective: Predict brankruptcies</li>
-          <li>Model/Algorithm used: random forest, logitics, xgboost, lightGBM classifier</li>
-          <li>Hyperparameter optimization: RandomSearchCV, GridSearch</li>
-          <li>Evaluation metrics: confusion matrix, ROC</li>
-         </ul>
-
-
-        <p class="mb-0">
-          <!-- When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the
-          front-end web development world. -->
-        </p>
-      </div>
-    </section>
     <hr class="m-0" />
 
 
