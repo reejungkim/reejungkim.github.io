@@ -121,8 +121,10 @@
             <img src="/assets/img/credit_default_shap.png" width="300" height="150" /></p>
             <img src="/assets/img/morrisSensitivity.png" width="300" height="150" /></p>
           <li>Objective: Predict brankruptcies</li>
-          <li>Model/Algorithm used: random forest, logitics, xgboost, lightGBM classifier</li>
-          <li>Hyperparameter optimization: RandomizedSearchCV, GridSearch</li>
+          <li>Model candidates: random forest, gradientboost, xgboost, lightGBM classifier</li>
+          <li>Model selected: XGB classifier</li>
+          <li>Feature reduction algorithm: Recursive feature elimination with cross validation</li>
+          <li>Hyperparameter optimization: RandomizedSearchCV</li>
           <li>Evaluation metrics: confusion matrix, ROC,  accuracy, precision, recall score, f1-score, support</li>
           <li>Model interpretation: feature importance, Shapley values, Morris Sensitivity</li>
         </ul>
