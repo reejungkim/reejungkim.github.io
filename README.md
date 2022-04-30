@@ -5,4 +5,4 @@
 <br></br>
 [Visit portfolio website](https://reejungkim.github.io/)
 
-
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=reejungkim)](https://github.com/reejungkim/github-readme-stats)
