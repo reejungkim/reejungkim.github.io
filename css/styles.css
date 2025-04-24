@@ -292,12 +292,21 @@ header {
   border-radius: var(--border-radius);
   border: 1px solid var(--border-color);
   margin-bottom: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
 }
 
 .school-logo {
-  max-width: 120px;
-  height: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
   margin-bottom: var(--spacing-md);
+  filter: grayscale(1);
+  transition: var(--transition);
+}
+
+.education-item:hover .school-logo {
+  filter: grayscale(0);
 }
 
 .education-program {
@@ -311,6 +320,13 @@ header {
   color: var(--text-light);
   font-size: 0.875rem;
   margin: var(--spacing-xs) 0;
+}
+
+.education-item h3 {
+  color: var(--text-color);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.1rem;
+  margin-left: 0;
 }
 
 /* Skills */
