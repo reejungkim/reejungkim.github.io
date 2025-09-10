@@ -301,12 +301,12 @@ header {
   height: 100px;
   object-fit: contain;
   margin-bottom: var(--spacing-md);
-  filter: grayscale(1);
+  /*filter: grayscale(1);*/
   transition: var(--transition);
 }
 
 .education-item:hover .school-logo {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 
 .education-program {
@@ -633,12 +633,12 @@ header {
   max-width: 120px;
   height: auto;
   margin-bottom: var(--spacing-md);
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: var(--transition);
 }
 
 .education-item:hover .school-logo {
-  filter: grayscale(0);
+  /* filter: grayscale(0); */
 }
 
 /* Responsive Improvements */
