@@ -10582,6 +10582,15 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+.social-icons .social-icon .social-icon-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1;
+}
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }

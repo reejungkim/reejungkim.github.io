@@ -380,6 +380,16 @@ header {
   transition: var(--transition);
 }
 
+.social-icon-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
 .social-icon:hover {
   color: var(--primary-color);
   transform: translateY(-2px);
