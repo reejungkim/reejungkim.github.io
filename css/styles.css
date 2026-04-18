@@ -624,9 +624,11 @@ header {
 
 /* Timeline Improvements */
 .timeline-period,
-.timeline-company {
+.timeline-company,
+.timeline-location {
   display: inline-block;
-  margin-right: var(--spacing-md);
+  margin: 0 var(--spacing-md) var(--spacing-xs) 0;
+  vertical-align: middle;
 }
 
 .timeline-company {
@@ -636,6 +638,10 @@ header {
 
 .timeline-period {
   color: var(--primary-color);
+}
+
+.timeline-location {
+  color: var(--text-light);
 }
 
 /* 색상만 primary-color로 변경하는 유틸리티 클래스 */
